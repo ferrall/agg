@@ -1,0 +1,27 @@
+**Pertaining to jw.ox**
+
+7/22 Nobody gets taxed in the current code
+	7/23 Some tax stuff in, may not be perfect 
+		Might be refined after other stuff fixed
+
+7/22 We are not sure about the stochastic structure piece of Table 1 in AGG
+n may be number of points in Tauchen, what is m? 
+
+7/22 Female is not currently getting child support payments
+They are being taken from males
+	7/23 In there, but needs to be changed a little 
+		Not calculating average income yet, just set to be a number
+
+7/23 Now draws in the second marriage market are working (we think)
+	-but divorce probability doesn't change when h increaseds
+
+7/23 Our human capital transmission function is different (better?)
+	********This is the priority for 7/23********
+
+**Pertaining to jw.h**
+
+7/22 Not sure why theta1=0.01 and delta1=0.05 in header- 0.1 and 0.5
+as is, average income is about 0 and human capital transfer is negative
+if "corrected" to 0.1 and 0.5- no convergence
+
+7/22 Not sure what zeta=0.325 and eta=0.5 are, nowhere in jw.ox
